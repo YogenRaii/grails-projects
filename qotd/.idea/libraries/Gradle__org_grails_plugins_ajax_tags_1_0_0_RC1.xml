@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:ajax-tags:1.0.0.RC1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/ajax-tags/1.0.0.RC1/b866c0e58015d9854b52b990c3ce3a3069795e2b/ajax-tags-1.0.0.RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/ajax-tags/1.0.0.RC1/d7da37e425ec03f165537da601ddb7a7b714d4b3/ajax-tags-1.0.0.RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
