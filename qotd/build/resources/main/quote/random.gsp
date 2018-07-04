@@ -8,7 +8,7 @@
 <body>
 <ul id="menu">
     <li>
-        <g:remoteLink action="ajaxRandom" update="quote">
+        <g:remoteLink action="random" update="quote">
             Next Quote
         </g:remoteLink>
     </li>

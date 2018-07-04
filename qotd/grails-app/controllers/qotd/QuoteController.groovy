@@ -9,20 +9,17 @@ class QuoteController {
     static defaultAction = "random"
 
     def random(){
-//        def staticAuthor ="Anonymous"
-//        def staticContent = "Real Programmers do not eat Quiche"
-//        [author:staticAuthor,content:staticContent]
-
         def randomQuote = quoteService.getRandomQuote()
         [quote: randomQuote]
     }
 
     def ajaxRandom(){
         def randomQuote = quoteService.getRandomQuote()
-        render {
+        [quote: randomQuote]
+        /*render {
             q(randomQuote.content)
             p(randomQuote.author)
-        }
+        }*/
     }
 
 }

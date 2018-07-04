@@ -11,7 +11,6 @@ class QuoteService {
 
     def getRandomQuote(){
         def allQuotes = Quote.listOrderById()
-        println("------Size of list------" + allQuotes.size())
         def randomQuote
         if(allQuotes.size() > 0){
             def randomIdx = new Random().nextInt(allQuotes.size())
