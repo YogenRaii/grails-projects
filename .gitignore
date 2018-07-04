@@ -1,5 +1,2 @@
-out/
-*.iml
-build/
-.idea
-.gradle
+
+.DS_Store
