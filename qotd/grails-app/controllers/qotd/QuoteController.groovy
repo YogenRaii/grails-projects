@@ -5,7 +5,7 @@ class QuoteController {
     static scaffold = Quote
 
     def quoteService
-//    def index() { }
+    def index() { }
     static defaultAction = "random"
 
     def random(){
