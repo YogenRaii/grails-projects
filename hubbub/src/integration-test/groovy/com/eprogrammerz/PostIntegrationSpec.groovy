@@ -22,8 +22,7 @@ class PostIntegrationSpec extends Specification {
         then: "user has list of posts"
         3 == User.get(user.id).posts.size()
     }
-
-    /*def "Ensure post for user can be retrieved"(){
+    def "Ensure post for user can be retrieved"(){
         given: "user and posts"
         def user = new User(loginId: 'joe', password: 'secret')
         user.addToPosts(new Post(content:  "First"))
@@ -64,7 +63,7 @@ class PostIntegrationSpec extends Specification {
         1 == groovyPost.tags.size()
         2 == bothPost.tags.size()
     }
-*/
+
     def setup() {
     }
 
